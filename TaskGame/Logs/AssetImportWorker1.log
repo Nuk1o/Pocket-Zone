@@ -1,0 +1,205 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.26f1 (a16dc32e0ff2) revision 10579395'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19043) 64bit Professional' Language: 'ru' Physical Memory: 16314 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\UnityProgramm\2021.3.26f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+E:/nukio_games/Pocket-Zone/TaskGame
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+60942
+Successfully changed project path to: E:/nukio_games/Pocket-Zone/TaskGame
+E:/nukio_games/Pocket-Zone/TaskGame
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [17488] Host "[IP] 192.168.0.6 [Port] 0 [Flags] 2 [Guid] 1161481433 [EditorId] 1161481433 [Version] 1048832 [Id] WindowsEditor(7,HOME-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [17488] Host "[IP] 192.168.0.6 [Port] 0 [Flags] 2 [Guid] 1161481433 [EditorId] 1161481433 [Version] 1048832 [Id] WindowsEditor(7,HOME-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.26f1 (a16dc32e0ff2)
+[Subsystems] Discovering subsystems at path D:/UnityProgramm/2021.3.26f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/nukio_games/Pocket-Zone/TaskGame/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 (ID=0x2184)
+    Vendor:   NVIDIA
+    VRAM:     5980 MB
+    Driver:   31.0.15.3742
+Initialize mono
+Mono path[0] = 'D:/UnityProgramm/2021.3.26f1/Editor/Data/Managed'
+Mono path[1] = 'D:/UnityProgramm/2021.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/UnityProgramm/2021.3.26f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56252
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/UnityProgramm/2021.3.26f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/UnityProgramm/2021.3.26f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/UnityProgramm/2021.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005712 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android SDK Build-tools component is not found. Make sure all tools are installed in the SDK manager. Latest supported build-tools version is 30.0.3
+0x00007ff7f4e3041d (Unity) StackWalker::GetCurrentCallstack
+0x00007ff7f4e36fd9 (Unity) StackWalker::ShowCallstack
+0x00007ff7f5dd3973 (Unity) GetStacktrace
+0x00007ff7f648419d (Unity) DebugStringToFile
+0x00007ff7f3fa3372 (Unity) DebugLogHandler_CUSTOM_Internal_Log
+0x000002c5bf7d3383 (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+0x000002c5bf7d305b (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+0x000002c5bf7d2de0 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
+0x000002c5bf7d2a97 (Mono JIT Code) UnityEngine.Debug:LogError (object)
+0x000002c5bf72fc1b (Mono JIT Code) UnityEditor.Android.AndroidSDKTools:UpdateToolsDirectories ()
+0x000002c5bf72f9cb (Mono JIT Code) UnityEditor.Android.AndroidSDKTools:.ctor (string)
+0x000002c5bf72f95b (Mono JIT Code) UnityEditor.Android.AndroidSDKTools:CreateAndroidSDKTools (string)
+0x000002c5bf72e5d8 (Mono JIT Code) UnityEditor.Android.AndroidSDKTools:GetInstance<T_REF> (UnityEditor.Android.AndroidSDKTools/InstanceCreator)
+0x000002c5bf70ca2b (Mono JIT Code) UnityEditor.Android.AndroidSDKTools:GetInstance ()
+0x000002c5bf70c703 (Mono JIT Code) UnityEditor.Android.AndroidDeploymentTargetsExtension:GetMainThreadContext (bool)
+0x000002c5bf70c48f (Mono JIT Code) UnityEditor.Android.TargetExtension:OnUsbDevicesChanged (UnityEditor.Hardware.UsbDevice[])
+0x000002c5bf701483 (Mono JIT Code) UnityEditor.Android.TargetExtension:OnLoad ()
+0x000002c5bf6bb48e (Mono JIT Code) UnityEditor.Modules.ModuleManager:InitializePlatformSupportModules ()
+0x000002c5bde2a005 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void (object,intptr,intptr,intptr)
+0x00007ffa3958fb04 (mono-2.0-bdwgc) [mini-runtime.c:3445] mono_jit_runtime_invoke 
+0x00007ffa394ce7a4 (mono-2.0-bdwgc) [object.c:3066] do_runtime_invoke 
+0x00007ffa394ce93c (mono-2.0-bdwgc) [object.c:3113] mono_runtime_invoke 
+0x00007ff7f4d533f4 (Unity) scripting_method_invoke
+0x00007ff7f4d32bf4 (Unity) ScriptingInvocation::Invoke
+0x00007ff7f4d2d7f5 (Unity) ScriptingInvocation::Invoke<void>
+0x00007ff7f4e6e70b (Unity) Scripting::UnityEditor::Modules::ModuleManagerProxy::InitializePlatformSupportModules
+0x00007ff7f4d27850 (Unity) MonoManager::SetupLoadedEditorAssemblies
+0x00007ff7f4d1d52d (Unity) MonoManager::EndReloadAssembly
+0x00007ff7f4d250b8 (Unity) MonoManager::ReloadAssembly
+0x00007ff7f5c8e23e (Unity) LoadUnityMonoAssemblies
+0x00007ff7f59787d0 (Unity) Application::InitializeProject
+0x00007ff7f5dde0d8 (Unity) WinMain
+0x00007ff7f71be77e (Unity) __scrt_common_main_seh
+0x00007ffac4e07034 (KERNEL32) BaseThreadInitThunk
+0x00007ffac6d42651 (ntdll) RtlUserThreadStart
+
+Android Extension - Scanning For ADB Devices 1361 ms
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.417 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2418ms)
+		BeginReloadAssembly (114ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (2175ms)
+			LoadAssemblies (115ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (150ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (1920ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (1722ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (128ms)
+				ProcessInitializeOnLoadMethodAttributes (67ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000000 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.834 seconds
+Domain Reload Profiling:
+	ReloadAssembly (835ms)
+		BeginReloadAssembly (164ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (585ms)
+			LoadAssemblies (94ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (155ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (256ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (29ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (22ms)
+				ProcessInitializeOnLoadAttributes (173ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 9 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2 unused Assets / (281.9 KB). Loaded Objects now: 481.
+Memory consumption went from 26.8 MB to 26.5 MB.
+Total: 3.232200 ms (FindLiveObjects: 0.046600 ms CreateObjectMapping: 0.004600 ms MarkObjects: 3.098800 ms  DeleteObjects: 0.081200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
