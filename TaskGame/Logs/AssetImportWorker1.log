@@ -15,7 +15,7 @@ E:/nukio_games/Pocket-Zone/TaskGame
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-60942
+60542
 Successfully changed project path to: E:/nukio_games/Pocket-Zone/TaskGame
 E:/nukio_games/Pocket-Zone/TaskGame
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ E:/nukio_games/Pocket-Zone/TaskGame
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [17488] Host "[IP] 192.168.0.6 [Port] 0 [Flags] 2 [Guid] 1161481433 [EditorId] 1161481433 [Version] 1048832 [Id] WindowsEditor(7,HOME-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [12732] Host "[IP] 192.168.0.6 [Port] 0 [Flags] 2 [Guid] 2783603295 [EditorId] 2783603295 [Version] 1048832 [Id] WindowsEditor(7,HOME-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [17488] Host "[IP] 192.168.0.6 [Port] 0 [Flags] 2 [Guid] 1161481433 [EditorId] 1161481433 [Version] 1048832 [Id] WindowsEditor(7,HOME-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [12732] Host "[IP] 192.168.0.6 [Port] 0 [Flags] 2 [Guid] 2783603295 [EditorId] 2783603295 [Version] 1048832 [Id] WindowsEditor(7,HOME-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 106.60 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.26f1 (a16dc32e0ff2)
 [Subsystems] Discovering subsystems at path D:/UnityProgramm/2021.3.26f1/Editor/Data/Resources/UnitySubsystems
@@ -67,131 +67,96 @@ Initialize mono
 Mono path[0] = 'D:/UnityProgramm/2021.3.26f1/Editor/Data/Managed'
 Mono path[1] = 'D:/UnityProgramm/2021.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/UnityProgramm/2021.3.26f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56252
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56432
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/UnityProgramm/2021.3.26f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/UnityProgramm/2021.3.26f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: D:/UnityProgramm/2021.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005712 seconds.
+Registered in 0.004052 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android SDK Build-tools component is not found. Make sure all tools are installed in the SDK manager. Latest supported build-tools version is 30.0.3
-0x00007ff7f4e3041d (Unity) StackWalker::GetCurrentCallstack
-0x00007ff7f4e36fd9 (Unity) StackWalker::ShowCallstack
-0x00007ff7f5dd3973 (Unity) GetStacktrace
-0x00007ff7f648419d (Unity) DebugStringToFile
-0x00007ff7f3fa3372 (Unity) DebugLogHandler_CUSTOM_Internal_Log
-0x000002c5bf7d3383 (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-0x000002c5bf7d305b (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-0x000002c5bf7d2de0 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
-0x000002c5bf7d2a97 (Mono JIT Code) UnityEngine.Debug:LogError (object)
-0x000002c5bf72fc1b (Mono JIT Code) UnityEditor.Android.AndroidSDKTools:UpdateToolsDirectories ()
-0x000002c5bf72f9cb (Mono JIT Code) UnityEditor.Android.AndroidSDKTools:.ctor (string)
-0x000002c5bf72f95b (Mono JIT Code) UnityEditor.Android.AndroidSDKTools:CreateAndroidSDKTools (string)
-0x000002c5bf72e5d8 (Mono JIT Code) UnityEditor.Android.AndroidSDKTools:GetInstance<T_REF> (UnityEditor.Android.AndroidSDKTools/InstanceCreator)
-0x000002c5bf70ca2b (Mono JIT Code) UnityEditor.Android.AndroidSDKTools:GetInstance ()
-0x000002c5bf70c703 (Mono JIT Code) UnityEditor.Android.AndroidDeploymentTargetsExtension:GetMainThreadContext (bool)
-0x000002c5bf70c48f (Mono JIT Code) UnityEditor.Android.TargetExtension:OnUsbDevicesChanged (UnityEditor.Hardware.UsbDevice[])
-0x000002c5bf701483 (Mono JIT Code) UnityEditor.Android.TargetExtension:OnLoad ()
-0x000002c5bf6bb48e (Mono JIT Code) UnityEditor.Modules.ModuleManager:InitializePlatformSupportModules ()
-0x000002c5bde2a005 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void (object,intptr,intptr,intptr)
-0x00007ffa3958fb04 (mono-2.0-bdwgc) [mini-runtime.c:3445] mono_jit_runtime_invoke 
-0x00007ffa394ce7a4 (mono-2.0-bdwgc) [object.c:3066] do_runtime_invoke 
-0x00007ffa394ce93c (mono-2.0-bdwgc) [object.c:3113] mono_runtime_invoke 
-0x00007ff7f4d533f4 (Unity) scripting_method_invoke
-0x00007ff7f4d32bf4 (Unity) ScriptingInvocation::Invoke
-0x00007ff7f4d2d7f5 (Unity) ScriptingInvocation::Invoke<void>
-0x00007ff7f4e6e70b (Unity) Scripting::UnityEditor::Modules::ModuleManagerProxy::InitializePlatformSupportModules
-0x00007ff7f4d27850 (Unity) MonoManager::SetupLoadedEditorAssemblies
-0x00007ff7f4d1d52d (Unity) MonoManager::EndReloadAssembly
-0x00007ff7f4d250b8 (Unity) MonoManager::ReloadAssembly
-0x00007ff7f5c8e23e (Unity) LoadUnityMonoAssemblies
-0x00007ff7f59787d0 (Unity) Application::InitializeProject
-0x00007ff7f5dde0d8 (Unity) WinMain
-0x00007ff7f71be77e (Unity) __scrt_common_main_seh
-0x00007ffac4e07034 (KERNEL32) BaseThreadInitThunk
-0x00007ffac6d42651 (ntdll) RtlUserThreadStart
-
-Android Extension - Scanning For ADB Devices 1361 ms
+Android Extension - Scanning For ADB Devices 379 ms
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 148.19 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.417 seconds
+- Completed reload, in  1.284 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2418ms)
-		BeginReloadAssembly (114ms)
+	ReloadAssembly (1284ms)
+		BeginReloadAssembly (104ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (2175ms)
-			LoadAssemblies (115ms)
+		EndReloadAssembly (1063ms)
+			LoadAssemblies (103ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (150ms)
+			SetupTypeCache (129ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (1920ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (841ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (1722ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
+				InitializePlatformSupportModulesInManaged (511ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (148ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (128ms)
-				ProcessInitializeOnLoadMethodAttributes (67ms)
+				ProcessInitializeOnLoadAttributes (119ms)
+				ProcessInitializeOnLoadMethodAttributes (57ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000000 seconds.
+Registered in 0.006805 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\nukio_games\Pocket-Zone\TaskGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\nukio_games\Pocket-Zone\TaskGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 95.59 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.834 seconds
+- Completed reload, in  1.375 seconds
 Domain Reload Profiling:
-	ReloadAssembly (835ms)
-		BeginReloadAssembly (164ms)
+	ReloadAssembly (1376ms)
+		BeginReloadAssembly (144ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (585ms)
-			LoadAssemblies (94ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (1090ms)
+			LoadAssemblies (112ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (155ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (256ms)
+			SetupTypeCache (306ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (67ms)
+			SetupLoadedEditorAssemblies (554ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (29ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (22ms)
-				ProcessInitializeOnLoadAttributes (173ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (96ms)
+				BeforeProcessingInitializeOnLoad (100ms)
+				ProcessInitializeOnLoadAttributes (276ms)
+				ProcessInitializeOnLoadMethodAttributes (53ms)
+				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
-Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.61 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 9 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2 unused Assets / (281.9 KB). Loaded Objects now: 481.
-Memory consumption went from 26.8 MB to 26.5 MB.
-Total: 3.232200 ms (FindLiveObjects: 0.046600 ms CreateObjectMapping: 0.004600 ms MarkObjects: 3.098800 ms  DeleteObjects: 0.081200 ms)
+Unloading 3735 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (284.1 KB). Loaded Objects now: 4197.
+Memory consumption went from 147.4 MB to 147.1 MB.
+Total: 3.901900 ms (FindLiveObjects: 0.381100 ms CreateObjectMapping: 0.110900 ms MarkObjects: 3.317900 ms  DeleteObjects: 0.090500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -203,3 +168,9 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 5487.385616 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79842766b460edbeab6a34051e857a80') in 0.015122 seconds 
