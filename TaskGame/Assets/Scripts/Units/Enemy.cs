@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 namespace Units
 {
@@ -27,6 +28,15 @@ namespace Units
         }
 
         private void OnTriggerEnter2D(Collider2D other)
+        {
+            if (other.gameObject.CompareTag("Player"))
+            {
+                _typeEnemy = TypeEnemy.agressive;
+                _playerTarget = other.gameObject;
+            }
+        }
+
+        private void OnTriggerStay2D(Collider2D other)
         {
             if (other.gameObject.CompareTag("Player"))
             {

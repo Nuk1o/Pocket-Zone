@@ -556,7 +556,7 @@ MonoBehaviour:
   _healthText: {fileID: 7851402246447056924}
   _dropItemTemplate: {fileID: 1063865501477825641, guid: 768d3d75ef9ccb340930ca65d17a3157, type: 3}
   _typeEnemy: 0
-  _viewRadius: 10
+  _viewRadius: 1
   _viewCollider: {fileID: 4202905622280739542}
 --- !u!50 &9092754423445363068
 Rigidbody2D:
@@ -573,12 +573,12 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &8407403963109297608
 BoxCollider2D:
   m_ObjectHideFlags: 0

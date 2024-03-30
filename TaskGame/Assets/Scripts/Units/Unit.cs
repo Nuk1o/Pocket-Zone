@@ -60,6 +60,8 @@ namespace Units
                 if (gameObject.CompareTag("Player"))
                 {
                     Debug.Log("Вы проиграли");
+                    SceneLoader _sceneLoader = new SceneLoader();
+                    _sceneLoader.ScenLoad("GameOver");
                 }
             }
             else
