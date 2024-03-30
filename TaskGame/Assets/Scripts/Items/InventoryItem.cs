@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using Data;
+using UnityEngine;
 
 namespace Items
 {
@@ -33,6 +34,17 @@ namespace Items
         public bool IsPositive()
         {
             return _countItems>0 ? true:false;
+        }
+
+        public void SetGameData(GameData gameData)
+        {
+            foreach (var item in gameData.inventoryItems)
+            {
+                if (item.nameItem==_name)
+                {
+                    _countItems = item.countItems;
+                }
+            }
         }
     }
 }

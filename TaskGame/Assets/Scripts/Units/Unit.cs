@@ -1,3 +1,4 @@
+using Data;
 using Items;
 using TMPro;
 using UnityEngine;
@@ -13,10 +14,27 @@ namespace Units
         [SerializeField] private Slider _healthSlider;
         [SerializeField] private TMP_Text _healthText;
         [SerializeField] private FallenItem _dropItemTemplate;
-        
+        [SerializeField] private SerializeController _serializeController;
         public float MoveSpeed
         {
             get { return _movementSpeed; }
+        }
+
+        public int Health
+        {
+            get { return _health; }
+        }
+
+        public Vector3 GetPositionUnit()
+        {
+            return gameObject.transform.position;
+        }
+
+        public void SetGameData(GameData gameData)
+        {
+            _health = gameData.healthValue;
+            gameObject.transform.position = 
+                new Vector3(gameData.playerPositionX,gameData.playerPositionY,gameData.playerPositionZ);
         }
 
         private void Awake()
@@ -60,6 +78,7 @@ namespace Units
                 if (gameObject.CompareTag("Player"))
                 {
                     Debug.Log("Вы проиграли");
+                    _serializeController.DeleteSaveData();
                     SceneLoader _sceneLoader = new SceneLoader();
                     _sceneLoader.ScenLoad("GameOver");
                 }
